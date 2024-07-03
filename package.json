@@ -1,0 +1,37 @@
+{
+  "name": "reach-api",
+  "version": "1.0.0",
+  "description": "A Retro Achievements API for TypeScript",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "/dist/src"
+  ],
+  "scripts": {
+    "test": "npx tsc && node dist/tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadaward/reach-api.git"
+  },
+  "keywords": [
+    "reach",
+    "reach-api",
+    "retro",
+    "retroachievements",
+    "achievements"
+  ],
+  "author": "Hadaward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hadaward/reach-api/issues"
+  },
+  "homepage": "https://github.com/Hadaward/reach-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "temporal-polyfill": "^0.2.5"
+  }
+}
